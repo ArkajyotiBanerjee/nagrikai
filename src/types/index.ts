@@ -1,4 +1,4 @@
-export type Language = 'en' | 'hi' | 'bn';
+export type Language = 'en' | 'hi' | 'bn' | 'ta';
 
 export type ServiceCategory = 
   | 'all' 

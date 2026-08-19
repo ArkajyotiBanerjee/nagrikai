@@ -79,7 +79,8 @@ export const HeroArea: React.FC<HeroAreaProps> = ({
   const headlines: Record<Language, { main: string; highlight: string }> = {
     en: { main: 'Government services,', highlight: 'finally made simple.' },
     hi: { main: 'सरकारी सेवाएं,', highlight: 'अब बेहद आसान।' },
-    bn: { main: 'সরকারি পরিষেবা,', highlight: 'এবার অত্যন্ত সহজ।' }
+    bn: { main: 'সরকারি পরিষেবা,', highlight: 'এবার অত্যন্ত সহজ।' },
+    ta: { main: 'அரசு சேவைகள்,', highlight: 'இனி எளிது.' }
   };
 
   return (
@@ -207,7 +208,7 @@ export const HeroArea: React.FC<HeroAreaProps> = ({
               <span>NagrikAI Engine • Active</span>
             </div>
             <span className={isDark ? 'text-emerald-400 font-semibold' : 'text-emerald-700 font-semibold'}>
-              English • हिंदी • বাংলা
+              English • हिंदी • বাংলা • தமிழ்
             </span>
           </div>
 

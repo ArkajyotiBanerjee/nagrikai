@@ -22,7 +22,8 @@ export const VoiceWaveformModal: React.FC<VoiceWaveformModalProps> = ({
   const sampleVoiceInputs: Record<Language, string> = {
     en: 'I want to apply for a fresh passport. What documents do I need?',
     hi: 'मुझे नया पासपोर्ट बनवाना है। क्या-क्या दस्तावेज लगेंगे?',
-    bn: 'আমি নতুন পাসপোর্ট আবেদন করতে চাই। কী কী কাগজপত্র লাগবে?'
+    bn: 'আমি নতুন পাসপোর্ট আবেদন করতে চাই। কী কী কাগজপত্র লাগবে?',
+    ta: 'நான் புதிய பாஸ்போர்ட் விண்ணப்பிக்க விரும்புகிறேன். என்ன ஆவணங்கள் தேவை?'
   };
 
   useEffect(() => {
@@ -62,13 +63,15 @@ export const VoiceWaveformModal: React.FC<VoiceWaveformModalProps> = ({
   const titles: Record<Language, string> = {
     en: 'Voice Assistant — Listening',
     hi: 'ध्वनि सहायक — सुन रहे हैं...',
-    bn: 'ভয়েস সহকারী — শুনছি...'
+    bn: 'ভয়েস সহকারী — শুনছি...',
+    ta: 'குரல் உதவி — கேட்கிறது...'
   };
 
   const subtitles: Record<Language, string> = {
-    en: 'Speak naturally in Hindi, Bengali, or English',
-    hi: 'हिंदी, बांग्ला या अंग्रेजी में स्वाभाविक रूप से बोलें',
-    bn: 'বাংলা, হিন্দি বা ইংরেজিতে স্বাভাবিকভাবে বলুন'
+    en: 'Speak naturally in Hindi, Bengali, Tamil, or English',
+    hi: 'हिंदी, बांग्ला, तमिल या अंग्रेजी में स्वाभाविक रूप से बोलें',
+    bn: 'বাংলা, হিন্দি, তামিল বা ইংরেজিতে স্বাভাবিকভাবে বলুন',
+    ta: 'தமிழ், ஹிந்தி, பங்களா அல்லது ஆங்கிலத்தில் பேசுங்கள்'
   };
 
   return (

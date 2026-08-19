@@ -48,6 +48,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { code: 'en', label: 'English', native: 'English' },
     { code: 'hi', label: 'Hindi', native: 'हिंदी' },
     { code: 'bn', label: 'Bengali', native: 'বাংলা' },
+    { code: 'ta', label: 'Tamil', native: 'தமிழ்' },
   ];
 
   // Close dropdowns on click outside
