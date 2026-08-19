@@ -78,6 +78,7 @@ export const ServiceResponseCard: React.FC<ServiceResponseCardProps> = ({
       
       if (language === 'hi') utterance.lang = 'hi-IN';
       else if (language === 'bn') utterance.lang = 'bn-IN';
+      else if (language === 'ta') utterance.lang = 'ta-IN';
       else utterance.lang = 'en-IN';
 
       utterance.onend = () => setIsPlayingAudio(false);

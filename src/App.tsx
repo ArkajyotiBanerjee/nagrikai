@@ -470,7 +470,7 @@ export const App: React.FC = () => {
             <div className="flex items-center gap-4">
               <span>National Civic Intelligence Platform</span>
               <span>•</span>
-              <span>English | हिंदी | বাংলা</span>
+              <span>English | हिंदी | বাংলা | தமிழ்</span>
             </div>
           </div>
 
